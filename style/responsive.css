@@ -1,0 +1,30 @@
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+   }
+
+   
+@media screen and (max-width: 300px){
+    div .drink-noite{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}   
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+
+    }
+} 
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 60%;
+    }
+
+    
+}

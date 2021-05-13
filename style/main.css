@@ -1,0 +1,210 @@
+
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+
+}
+
+/* resetando alguns elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Trabalhando com o menu*/
+/* Elementos base */
+
+body{
+
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .logo{
+    color: var(--vermelho);
+    margin-left: 5px;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Filme principal */
+
+
+
+.drink-dia{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/pinacolada-dia.png');
+
+    height:400px;
+    width: 602px;
+   
+    
+  
+    border: 2px solid #aaa;
+    
+    background-size:cover;
+
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+.drink-noite{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/alexander.jpg'); 
+
+    height:400px;
+    width: 638px;
+    float: right;
+    /*margin-top: -400px;*/
+    margin-right: 4px;
+    border: 2px solid #aaa;
+    
+    background-size:cover;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+    align-items: flex-start;
+    
+}
+
+
+.drink-dia .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 8px;
+
+}
+
+
+.drink-noite .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 8px;
+}
+
+.drink-dia .titulo{
+    margin-top: 25%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+.drink-noite .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 8px;
+
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 4px;
+}
+
+.drink-dia .container{
+    width: 80%;
+}
+
+.drink-noite .container{
+    width: 70%;
+}
+
+
+.box-drink{
+    padding: 5px ;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 2px solid rgba(71, 71, 71, 0.5)
+}
+
+.carrossel-drinks{
+    margin-top: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    color: #aaa;
+    margin-left: 7px;
+
+}
+
+h3:hover{
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.dia{
+    color: rgb(139, 236, 236);
+}
+
+.noite{
+    color: red;
+}
+
+#rodape {
+    font-size: 15px;
+    text-align: center;
+    padding: 3px;
+	width: 100%;
+	margin: 0 auto;
+	color: #E50914;
+}
+
+#rodape img{
+    width: 100%;
+    height: 600px;
+    border: 2px solid #aaa;
+}
